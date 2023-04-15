@@ -50,7 +50,7 @@ export default function App() {
 <div className='container' style={{maxWidth : `500px`, height : `75px` , marginTop: '10px', marginLeft : '67%' }}>
 <Alert alert={alert}/></div>
 <div className='container'>
- <TextForm showAlert={showAlert} heading="Enter text To Analaze below" mode={mode}/>
+ <TextForm showAlert={showAlert} heading="Enter text to edit below" mode={mode}/>
  {/* <Routes> 
  <Route path="/" render={(props) => <TextForm showAlert={showAlert} heading="Enter text To Analaze below" mode={mode} />} exact />
   <Route path="/" component={About} exact/>           
